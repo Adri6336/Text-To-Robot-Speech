@@ -6,4 +6,4 @@ To use, you'll first need to get the gtts module and set up Python 3.9. To insta
 2. Press "Windows PowerShell (Admin)
 3. Type "pip install gtts", then enter -- the computer will do the rest
 
-With gtts installed, you should be able to run the script. If something goes wrong, you can just use the executable I prepared instead (if I can figure out how to attach it here).
+With gtts installed, you should be able to run the script. If something goes wrong, you can just use the executable I prepared instead; it will run the script without any effort on your end, though it will be a bit slower to start up.
