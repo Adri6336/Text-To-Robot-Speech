@@ -17,6 +17,7 @@ Tool to convert text to speech, creating files for later use. TTRS uses Google's
 
 # Using TTRS
 *Using as executable file*
+
 To use easily, you can simply download the TTRS_v0.3 zip and run the .exe file within. It's already packed for you, so it should be as easy as double-clicking 
 and getting to work. The exact steps are as follows:
 1. Download TTRS_v-0.3.zip
@@ -25,6 +26,7 @@ and getting to work. The exact steps are as follows:
 4. Double click the .exe file to start the program
 
 *Using as Python Script*
+
 To use, you'll first need to get the gtts module and set up Python 3.9. To install using pip on Windows (comes with standard Python installations), do the following: 
 1. Right click the windows icon
 2. Press "Windows PowerShell (Admin)
