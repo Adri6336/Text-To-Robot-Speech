@@ -40,4 +40,4 @@ then select the sole .exe file with the same name.
 
 - I've noticed that for largish files, it takes longer for TTRS to generate the speech. During this wait period, the computer does stuff that makes it look like TTRS has
 crashed -- it has not crashed. The same issue displays when playing long talkin' files. I currently don't know why this happens, but Imma look into it. Maybe it'll be fixed
-in an upcoming update. For now, TTRS should be stable (even if it doesn't quite look like it :P)
+in an upcoming update. For now, TTRS should be stable (even if it doesn't quite look like it :P).
