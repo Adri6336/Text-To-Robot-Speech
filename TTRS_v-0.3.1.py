@@ -225,7 +225,7 @@ class Gui4App: #The GUI was made with pygubu-designer
 
 
 
-    def makeAudio(self): #This will send the data to Google and produce a file
+    def makeAudio(self): #This will compile the info, send it to makeIt() if it can, and create a temp file for playback
         self.setMessage(msg="Something went wrong ...") #if attempt fails, preventing a message below from printing
         self.getText() #Get the entered text and store into appropriate variables
         
