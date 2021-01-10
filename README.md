@@ -35,3 +35,9 @@ Full requirements: tkinter, tkinter.ttk ,os, time, and gtts
 
 With gtts installed, you should be able to run the script. If something goes wrong, you can just use the executable I prepared instead; it will run the script without any effort on your end, though it will be a bit slower to start up. To find the executable, you'll need to download the TTRS_v-0.3.1 folder and its contents (mainly just the icon2 file),
 then select the sole .exe file with the same name.
+
+# Additional Notes:
+
+- I've noticed that for largish files, it takes longer for TTRS to generate the speech. During this wait period, the computer does stuff that makes it look like TTRS has
+crashed -- it has not crashed. The same issue displays when playing long talkin' files. I currently don't know why this happens, but Imma look into it. Maybe it'll be fixed
+in an upcoming update. For now, TTRS should be stable (even if it doesn't quite look like it :P)
