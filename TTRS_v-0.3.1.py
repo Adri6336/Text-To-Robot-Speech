@@ -198,7 +198,7 @@ class Gui4App: #The GUI was made with pygubu-designer
         #Idea 4: Restart. Scrap everthing and build it all again
         
         #Conclusion: I tried idea 3 first, but failed and resorted to just restarting. In this process, I deobfuscated my code
-        #            and discovered the origin of the error. The problem was that gTTS does NOT like overriding files (I wouldn't
+        #            and discovered the origin of the error. The problem was that gTTS does NOT like overwriting files (I wouldn't
         #            change the file path between generations). To solve this issue, I'll delete any old play.mp3 files that exist
         #            in the path I want whenever "Generate Speech" is pressed. Once the file is deleted, I call gTTS to make a 
         #            new one -- this completely fixes the bug! :D
