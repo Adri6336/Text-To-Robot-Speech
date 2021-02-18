@@ -1,25 +1,18 @@
 # Text-To-Robot-Speech
 Tool to convert text to speech, creating files for later use. TTRS uses Google's gTTS module to easily create robo text readin' on command.
 
-# TTRS v0.3.1 Changelog:
-- Added option to play sound within the app. Should help with editing your robo talkin' and engaging in quality control
-
-- Fixed the cursor that is displayed within the app
-
-- Modified source code to add more notes. Hopefully it will make the process of updating easier for me, as well as helping y'all understand the code
-
-- Disabled the troubleshooting messages that would display for script users
-
-- Updated icon (probably for the worse, but idk. It's definitely different)
+# TTRS v0.3.2 Changelog:
+- Made playing genrated audio more effecient. TTRS will no longer look like it's frozen whenever it plays audio. 
+- Slightly updated code to look nicer
 
 # Using TTRS
 *Using as executable file*
 
-To use easily, you can simply download the TTRS_v0.3.1 zip and run the .exe file within. It's already packed for you, so it should be as easy as double-clicking 
+To use easily, you can simply download the TTRS_v0.3.2 zip and run the .exe file within. It's already packed for you, so it should be as easy as double-clicking 
 and getting to work. The exact steps are as follows:
-1. Download TTRS_v-0.3.1.zip
+1. Download TTRS_v-0.3.2.zip
 2. Extract the zip file
-3. Within the newly extracted folder, you'll find the executable (with all the other files). The executable is labeled TTRS_v-0.3.1.exe
+3. Within the newly extracted folder, you'll find the executable (with all the other files). The executable is labeled TTRS_v-0.3.2.exe
 4. Double click the .exe file to start the program
 
 *Using as Python Script*
@@ -28,7 +21,7 @@ To use, you'll first need to get the gtts module and set up Python 3.9. To insta
 1. Right click the windows icon
 2. Press "Windows PowerShell (Admin)
 3. Type "pip install gtts", then enter -- the computer will do the rest
-4. Download the TTRS_v-0.3.1.py and icon2.ico files. Place them both in same directory.
+4. Download the TTRS_v-0.3.2.py and icon2.ico files. Place them both in same directory.
 5. Run the Python script
 
 Full requirements: tkinter, tkinter.ttk ,os, time, playsound, and gtts
@@ -38,6 +31,4 @@ then select the sole .exe file with the same name.
 
 # Additional Notes:
 
-- I've noticed that for largish files, it takes longer for TTRS to generate the speech. During this wait period, the computer does stuff that makes it look like TTRS has
-crashed -- it has not crashed. The same issue displays when playing long talkin' files. I currently don't know why this happens, but Imma look into it. Maybe it'll be fixed
-in an upcoming update. For now, TTRS should be stable (even if it doesn't quite look like it :P).
+- Generating audio can still make TTRS look like it has frozen. An update that'll fix this is in the works.
