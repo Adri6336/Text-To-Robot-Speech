@@ -24,7 +24,7 @@ To use, you'll first need to get the gtts module and set up Python 3.9. To insta
 4. Download the TTRS_v-0.3.2.py and icon2.ico files. Place them both in same directory.
 5. Run the Python script
 
-Full requirements: tkinter, tkinter.ttk ,os, time, playsound, and gtts
+Full requirements: tkinter, tkinter.ttk, playsound, and gtts
 
 With gtts installed, you should be able to run the script. If something goes wrong, you can just use the executable I prepared instead; it will run the script without any effort on your end, though it will be a bit slower to start up. To find the executable, you'll need to download the TTRS_v-0.3.1 folder and its contents (mainly just the icon2 file),
 then select the sole .exe file with the same name.
